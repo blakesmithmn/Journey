@@ -1,0 +1,113 @@
+header h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    background-color: #1E2F23;
+    color: white;
+
+}
+
+.contact {
+    background-color: #1E2F23;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin-top: -35px;
+}
+
+body {
+    background-image: url(https://i.imgur.com/ds8WnFY.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #7D8491;
+    font-family: Roboto, Poppins;
+}
+
+
+h2 {
+    text-align: Center;
+    font-size: 35px;
+    color: white;
+
+}
+
+.about {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 700px;
+    height: 200px;
+    filter: drop-shadow(16px 16px 10px black);
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+
+}
+
+.employers {
+    font-size: 20px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 700px;
+    height: 250px;
+    filter: drop-shadow(16px 16px 10px black);
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+
+}
+
+
+
+.employers ul {
+    list-style-type: circle;
+}
+
+.employers h3 {
+    margin-top: -15px;
+}
+
+.employers em {
+    color: #40644A;
+    font-size: 20px;
+
+}
+
+.dates {
+    text-align: right;
+    margin-top: 10px;
+    color: #432723;
+}
+
+.Me {
+    height: 250px;
+    width: 250px;
+    background-color: #1E2F23;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    margin-top: 75px;
+    margin-left: 300px;
+
+}
+
+hr {
+    border: none;
+    border-top: 10px dotted white;
+    color: #fff;
+
+    height: 10px;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    color: #1E2F23;
+
+}
