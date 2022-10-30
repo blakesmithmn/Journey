@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import headshot from './headshot.png';
 import Slide from '@mui/material/Slide';
 import { TransitionProps } from '@mui/material/transitions';
+import './Current.css';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
@@ -27,7 +28,7 @@ export default function Header() {
 
             <Grid container>
                 <Grid item xs={12} >
-                    <Card>
+                    <Card className='CardDisplay'>
                         <CardContent>
                             <Typography variant='h1'>
                                 Hi, I'm Blake

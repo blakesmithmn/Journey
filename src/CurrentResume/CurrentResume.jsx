@@ -15,9 +15,9 @@ function CurrentResume() {
         <>
 
             <Header />
+            <Projects />
             <Skills />
             <Experience />
-            <Projects />
         </>
 
     )
