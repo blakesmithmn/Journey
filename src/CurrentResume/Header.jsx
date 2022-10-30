@@ -26,7 +26,7 @@ export default function Header() {
         <>
 
             <Grid container>
-                <Grid item xs={12}>
+                <Grid item xs={12} >
                     <Card>
                         <CardContent>
                             <Typography variant='h1'>
